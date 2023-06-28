@@ -1,0 +1,96 @@
+.chatbox {
+    flex: 1;
+    position: relative;
+    background-color: #ebd6ff;
+
+}
+
+.chat-input-holder {
+    padding: 24px;
+    padding-top: 5%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+/* .collapse-content{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: auto;
+} */
+
+.subject-list{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: auto;
+    /* margin-top: 0%; */
+    margin-bottom: 5%;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: block;
+    margin: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #af59ff
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+    color: #af59ff;
+    border: 1px solid #af59ff;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+/* Responsive dropdown menu */
+@media screen and (max-width: 600px) {
+
+    .dropdown .dropbtn,
+    .dropdown .dropdown-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown .dropdown-content {
+        display: none;
+        position: relative;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+
+.btn1 {
+    width: 100%;
+}
